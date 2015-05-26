@@ -425,3 +425,36 @@ td,
 th {
   padding: 0;
 }
+ol, ul {
+  list-style: none;
+}
+/* begin non-normalize */
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.top-navigation {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+}
+
+.top-navigation > .content {
+  width: 60%;
+  margin: 0 auto;
+}
+.top-navigation .links {
+  float: right;
+  color: #838994;
+  font-size: 1.04rem;
+  margin-top: 1.7rem;
+}
+.top-navigation  .links  li {
+ display: inline-block;
+  margin-left: 1em;
+}
