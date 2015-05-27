@@ -436,7 +436,10 @@ div {
     border: 1px solid Chocolate;
 }
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1em; 
+  color: #838994; 
+  letter-spacing: 0.03em
 }
 .top-navigation {
   background-color: #fff;
@@ -445,8 +448,11 @@ body{
 }
 
 .top-navigation > .content {
+  height: 4.375rem;
   width: 60%;
   margin: 0 auto;
+  padding: 0 0.938rem;
+  min-width: 37.5rem;
 }
 .top-navigation .links {
   float: right;
@@ -457,4 +463,7 @@ body{
 .top-navigation  .links  li {
  display: inline-block;
   margin-left: 1em;
+}
+.top-navigation .logo {
+  height: 4.375rem;
 }
