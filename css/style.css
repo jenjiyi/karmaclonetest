@@ -449,6 +449,11 @@ body{
   letter-spacing: 0.03em;
   -webkit-font-smoothing: antialiased;
 }
+.content {
+  width: 60%;
+  margin: 0 auto;
+  min-width: 37.5rem;
+}
 .top-navigation {
   background-color: #fff;
   width: 100%;
@@ -459,10 +464,7 @@ body{
 
 .top-navigation > .content {
   height: 4.375rem;
-  width: 60%;
   padding: 0 0.938rem;
-  margin: 0 auto;
-  min-width: 37.5rem;
 }
 .top-navigation .links {
   float: right;
@@ -479,7 +481,7 @@ body{
 }
 .top-navigation .links > .active {
     color: #4c5058;
-    font-weight: 600;
+    font-weight: 500;
 }
 .top-navigation .links li:hover {
   cursor: pointer;
