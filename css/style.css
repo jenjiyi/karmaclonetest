@@ -4,7 +4,27 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -444,6 +464,9 @@ div {
 }
 body{
   color: #838994; 
+  line-height: 1;
+  font-family: 'Roboto', sans-serif; 
+  -webkit-font-smoothing: antialiased;
 }
 .content {
   width: 60%;
@@ -451,8 +474,6 @@ body{
   min-width: 37.5rem;
 }
 .top-navigation {
-  font-family: 'Roboto', sans-serif; 
-  -webkit-font-smoothing: antialiased;
   background-color: #fff;
   width: 100%;
   position: fixed;
@@ -497,6 +518,7 @@ body{
   padding: 2em 0;
 }
 .introduction h1, .introduction h3 {
+  margin:0;
   color: #fff;
   text-align: center;
   font-weight: 300;
@@ -506,6 +528,27 @@ body{
   font-size: 3.125rem;
 }
 .introduction h3 {
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+}
+.introduction .button{
   color: #fff;
-  font-size: 1.5em;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+button{
+    width: 9.688rem;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 1.125rem;
+}
+button:hover {
+  background-color: #d9400e;
+  border-color: #cf3d0e;
+  cursor: pointer;
 }
